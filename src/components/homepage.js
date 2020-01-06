@@ -2,17 +2,12 @@ import React from "react"
 
 import Image from "../components/image"
 
+import cover from "../images/highskillmasters-cover.png"
+
 const Homepage = () => {
   return (
     <div>
-      <div
-        style={{
-          maxWidth: `200px`,
-          marginBottom: `1.45rem`,
-        }}
-      >
-        <Image></Image>
-      </div>
+      <img src={cover} alt="High Skill Masters" />
 
       <p>
         High Skill Masters is a global community for highly skilled
@@ -37,8 +32,11 @@ const Homepage = () => {
 
       <ul>
         <li>Beginner: Casual networking with like-minded people</li>
-        <li>Intermediate: Seminar in sharing and helping to solve problems</li>
-        <li>Advanced: Workshop in creating something new together</li>
+        <li>Intermediate: Seminar for sharing and helping to solve problems</li>
+        <li>
+          Advanced: Workshop for applying knowledge and creating something new
+          together
+        </li>
       </ul>
       <h3>Meetup Regions</h3>
       <ul>
@@ -82,7 +80,15 @@ const Homepage = () => {
           </a>
         </li>
       </ul>
-      <p>LEARN. GROW. SUCCESS.</p>
+      <div
+        style={{
+          maxWidth: `300px`,
+          marginBottom: `1.45rem`,
+        }}
+      >
+        <Image></Image>
+        <p>LEARN. GROW. SUCCESS.</p>
+      </div>
     </div>
   )
 }
