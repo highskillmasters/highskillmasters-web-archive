@@ -16,7 +16,7 @@ const Homepage = () => {
 
       <p>
         High Skill Masters is a global community for highly skilled
-        professionals in Indonesia that aimed to be connected worldwide.
+        professionals in several countries that aimed to be connected worldwide.
       </p>
       <p>
         Are you someone with a high skill set or on the path to mastery? Let's
