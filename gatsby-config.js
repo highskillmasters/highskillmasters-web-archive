@@ -36,7 +36,7 @@ module.exports = {
       resolve: `gatsby-plugin-hotjar-tracking`,
       options: {
         includeInDevelopment: false,
-        id: 1637169,
+        id: 1637172,
         sv: 6,
       },
     },
