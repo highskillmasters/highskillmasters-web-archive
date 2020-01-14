@@ -62,6 +62,12 @@ const Homepage = () => {
       <h3>Social Media</h3>
       <ul>
         <li>
+          Instagram:{" "}
+          <a href="https://instagram.com/highskillmasters">
+            https://instagram.com/highskillmasters
+          </a>
+        </li>
+        <li>
           Facebook Page:{" "}
           <a href="https://facebook.com/highskillmasters">
             https://facebook.com/highskillmasters
@@ -77,6 +83,18 @@ const Homepage = () => {
           LinkedIn Group:{" "}
           <a href="https://linkedin.com/groups/10512255">
             https://linkedin.com/groups/10512255
+          </a>
+        </li>
+        <li>
+          WhatsApp Group:{" "}
+          <a href="https://chat.whatsapp.com/I7q2coGASL54YitSb2URhL">
+            https://chat.whatsapp.com
+          </a>
+        </li>
+        <li>
+          Telegram Group:{" "}
+          <a href="https://t.me/highskillmasters">
+            https://t.me/highskillmasters
           </a>
         </li>
       </ul>
