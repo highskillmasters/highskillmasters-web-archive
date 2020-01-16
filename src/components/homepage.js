@@ -85,18 +85,6 @@ const Homepage = () => {
             https://linkedin.com/groups/10512255
           </a>
         </li>
-        <li>
-          WhatsApp Group:{" "}
-          <a href="https://chat.whatsapp.com/I7q2coGASL54YitSb2URhL">
-            https://chat.whatsapp.com
-          </a>
-        </li>
-        <li>
-          Telegram Group:{" "}
-          <a href="https://t.me/highskillmasters">
-            https://t.me/highskillmasters
-          </a>
-        </li>
       </ul>
       <div
         style={{
