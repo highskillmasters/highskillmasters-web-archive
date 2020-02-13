@@ -3,8 +3,10 @@ module.exports = {
     title: `High Skill Masters`,
     description: `A global community`,
     author: `@highskillmasters`,
+    siteUrl: `https://highskillmasters.com`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
