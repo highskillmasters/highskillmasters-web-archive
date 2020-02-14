@@ -2,10 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import cover from "../images/highskillmasters-cover.png"
 
 const Contact = () => (
   <Layout>
     <SEO title="Home" />
+    <img src={cover} alt="High Skill Masters" />
     <h1>Contact</h1>
     <p>
       <h3>Social Media</h3>

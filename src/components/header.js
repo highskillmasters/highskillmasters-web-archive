@@ -7,8 +7,8 @@ import "./header.css"
 const Header = ({ siteTitle }) => (
   <header className="header">
     <div className="header__container">
-      <Link to="/">
-        <a className="header__title">High Skill Masters</a>
+      <Link to="/" className="header__title">
+        High Skill Masters
       </Link>
       <div className="header__menu">
         <Link to="/blog">Blog</Link>
