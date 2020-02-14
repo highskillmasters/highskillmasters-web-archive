@@ -3,11 +3,12 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
+const BlogPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Contact Us</h1>
+    <SEO title="Home" />
+    <h1>Blog</h1>
+    <p>Coming soon... ✌️</p>
   </Layout>
 )
 
-export default SecondPage
+export default IndexPage
