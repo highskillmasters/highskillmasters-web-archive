@@ -11,4 +11,4 @@ const BlogPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default BlogPage
