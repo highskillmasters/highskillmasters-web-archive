@@ -12,6 +12,7 @@ import Head from "react-helmet"
 
 import Header from "./header"
 import "./layout.css"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -42,16 +43,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
 
-        <hr />
-
-        <footer
-          style={{
-            textAlign: `center`,
-          }}
-        >
-          Copyright © {new Date().getFullYear()} High Skill Masters. All rights
-          reserved.
-        </footer>
+        <Footer />
       </div>
     </>
   )

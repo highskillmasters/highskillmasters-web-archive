@@ -9,10 +9,10 @@ const Header = ({ siteTitle }) => (
     <div className="header__container">
       <h1 className="header__title">High Skill Masters</h1>
       <div className="header__menu">
-        <a href="#">Home</a>
-        <a href="#">Blog</a>
-        <a href="#">Meetups</a>
-        <a href="#">About</a>
+        <Link to="/">Home</Link>
+        <Link to="/blog">Blog</Link>
+        <Link to="/meetup">Meetups</Link>
+        <Link to="/about">About</Link>
       </div>
     </div>
   </header>
