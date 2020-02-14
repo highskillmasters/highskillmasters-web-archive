@@ -1,0 +1,15 @@
+.footer {
+  margin: 64px 0 0 0;
+  padding: 64px 0;
+  text-align: center;
+  border-top: 1px solid #d0d0d0;
+}
+
+.footer__link {
+  border-right: 1px solid #d0d0d0;
+  padding: 0 18px;
+}
+
+.footer__link:last-child {
+  border-right: none;
+}
