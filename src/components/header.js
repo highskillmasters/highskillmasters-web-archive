@@ -7,11 +7,13 @@ import "./header.css"
 const Header = ({ siteTitle }) => (
   <header className="header">
     <div className="header__container">
-      <h1 className="header__title">High Skill Masters</h1>
+      <Link to="/">
+        <a className="header__title">High Skill Masters</a>
+      </Link>
       <div className="header__menu">
-        <Link to="/">Home</Link>
         <Link to="/blog">Blog</Link>
         <Link to="/meetup">Meetups</Link>
+        <Link to="/contact">Contact</Link>
         <Link to="/about">About</Link>
       </div>
     </div>
