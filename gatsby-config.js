@@ -6,6 +6,10 @@ module.exports = {
     siteUrl: `https://highskillmasters.com`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: { rule: { include: /icons/ } },
+    },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-gtag`,
